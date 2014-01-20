@@ -12,16 +12,16 @@ namespace CouchTest
     {
         static void Main(string[] args)
         {
-            /*
+            
             Timer _timer;
             _timer = new Timer(3000);
             _timer.Elapsed += new ElapsedEventHandler(doVitals);
             _timer.Enabled = true;
 
             while (Console.Read() != 'q') ;
-            */ 
+             
 
-            TEST();
+            //TEST();
         }
 
         static void doVitals(object sender, ElapsedEventArgs e)
@@ -39,15 +39,15 @@ namespace CouchTest
             int temp = rnd.Next(95, 105);
             int resp = rnd.Next(0, 30);
 
-            string content = "{" + "HR:" + hr.ToString() +
-                                ",BP:" + bpd.ToString() + "/" + bps.ToString() +
-                                ",SPO2:" + spo2.ToString() +
-                                ",ETCO2:" + etco2.ToString() +
-                                ",TEMP:" + temp.ToString() +
-                                ",RESP:" + resp.ToString() +
-                                "}";
+            string content = "{" + "\"HR\":\"" + hr.ToString() +
+                               "\",\"BP\":\"" + bpd.ToString() + "/" + bps.ToString() +
+                               "\",\"SPO2\":\"" + spo2.ToString() +
+                               "\",\"ETCO2\":\"" + etco2.ToString() +
+                               "\",\"TEMP\":\"" + temp.ToString() +
+                               "\",\"RESP\":\"" + resp.ToString() +
+                               "\"}";
 
-            Console.WriteLine("Creating Document with Conent:\n");
+            Console.WriteLine("Creating Document with Content:\n");
             Console.WriteLine(content);
             Console.WriteLine("\n");
             COUCH.CreateDocument(server, database, content);
