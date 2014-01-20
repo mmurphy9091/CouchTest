@@ -1,0 +1,6 @@
+c:\users\mitch_000\documents\visual studio 2013\Projects\CouchTest\CouchTest\bin\Debug\CouchTest.exe.config
+C:\Users\mitch_000\documents\visual studio 2013\Projects\CouchTest\CouchTest\bin\Debug\CouchTest.exe
+C:\Users\mitch_000\documents\visual studio 2013\Projects\CouchTest\CouchTest\bin\Debug\CouchTest.pdb
+C:\Users\mitch_000\documents\visual studio 2013\Projects\CouchTest\CouchTest\obj\Debug\CouchTest.csprojResolveAssemblyReference.cache
+C:\Users\mitch_000\documents\visual studio 2013\Projects\CouchTest\CouchTest\obj\Debug\CouchTest.exe
+C:\Users\mitch_000\documents\visual studio 2013\Projects\CouchTest\CouchTest\obj\Debug\CouchTest.pdb
